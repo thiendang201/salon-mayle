@@ -1,0 +1,12 @@
+.mainWrapper.nav-open {
+  overflow: hidden;
+}
+
+.main-content {
+  transform: translate3d(0, 0, 0);
+  transition: all 0.5s;
+}
+
+.mainWrapper.nav-open .main-content {
+  transform: translate3d(300px, 0px, 0px);
+}

@@ -1,0 +1,31 @@
+.service-wrapper {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.service-wrapper:hover .service-image {
+  transform: scale(1.1);
+}
+
+.service-wrapper:hover .service-title {
+  background-color: var(--color-primary);
+  color: var(--color-background-darkest);
+}
+
+.service-title {
+  background-color: var(--color-background-darkest);
+  color: var(--color-primary);
+  padding: 16px;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.6s;
+}
+
+.service-image {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  transition: all 0.6s;
+  transform: scale(1);
+}
