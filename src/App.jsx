@@ -3,8 +3,6 @@ import { Layout } from "src/layout/Layout";
 import { Services } from "src/features/services/Services";
 
 function App() {
-  console.log("abc");
-
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
