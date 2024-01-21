@@ -11,6 +11,7 @@ function App() {
         <Route index element={null} />
         <Route path="news" element={null} />
         <Route path="services" element={<Services />} />
+        <Route path="services2" element={<Services />} />
       </Route>
     </Routes>
   );
