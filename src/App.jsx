@@ -1,14 +1,16 @@
-import { Route, Routes } from 'react-router-dom';
-import { Layout } from 'src/layout/Layout';
-import { Services } from 'src/features/services/Services';
+import { Route, Routes } from "react-router-dom";
+import { Layout } from "src/layout/Layout";
+import { Services } from "src/features/services/Services";
 
 function App() {
+  console.log("abc");
+
   return (
     <Routes>
-      <Route path='/' element={<Layout />}>
+      <Route path="/" element={<Layout />}>
         <Route index element={null} />
-        <Route path='news' element={null} />
-        <Route path='services' element={<Services />} />
+        <Route path="news" element={null} />
+        <Route path="services" element={<Services />} />
       </Route>
     </Routes>
   );
